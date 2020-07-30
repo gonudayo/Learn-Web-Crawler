@@ -1,6 +1,6 @@
 import requests
 
-request = requests.get('https://www.youtube.com/')
+request = requests.get('http://www.paxnet.co.kr/news/main')
 
 html = request.text.strip()
 
